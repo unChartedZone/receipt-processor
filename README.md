@@ -2,9 +2,11 @@
 
 Webservice that can consume a receipt and calculate points for a given receipt.
 
-## Staring up the API
+## Starting up the API
 
-If you have go installed on your machine, then please run `go mod download` to install all dependencies. Then run `go run .`, the api should be listening on `http://localhost:8080`.
+If you have `go` installed on your machine, please do the following steps: 
+1. Run `go mod download` to install all dependencies. 
+2. Run `go run .`, the api should be listening on `http://localhost:8080`.
 
 ## Running API with Docker
 
