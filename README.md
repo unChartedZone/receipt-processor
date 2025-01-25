@@ -8,7 +8,7 @@ If you have `go` installed on your machine, please do the following steps:
 1. Run `go mod download` to install all dependencies. 
 2. Run `go run .`, the api should be listening on `http://localhost:8080`.
 
-## Running API with Docker
+## Running the API with Docker
 
 To run the API with docker, first please build the docker image with the following command.
 
@@ -16,7 +16,7 @@ To run the API with docker, first please build the docker image with the followi
 docker build -t receipt-processor .
 ```
 
-Then to run the image in a container, use the following command, the API should be available on `http://localhost:8080`
+Then to run the image in a container use the following command, the API should be available on `http://localhost:8080`
 
 ```sh
 docker run -p 8080:8080 receipt-processor
